@@ -1,0 +1,38 @@
+{
+  // TypeScript config for a Next.js 14 App Router project.
+  // `strict: true` is the headline setting for this project — it turns on
+  // strictNullChecks, noImplicitAny, etc. Everything in /lib and /types is
+  // written to satisfy these without a single `any`.
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "ES2022"],
+    "allowJs": true,
+    "skipLibCheck": true,
+
+    // --- Strictness (the point of this project) ---
+    "strict": true, // master switch: no implicit any, strict null checks, etc.
+    "noUncheckedIndexedAccess": true, // arr[i] is `T | undefined` — forces you to handle gaps
+    "noImplicitOverride": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // --- Module resolution for Next.js ---
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true, // lets us `import data from "../data/*.json"`
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "noEmit": true,
+
+    "plugins": [{ "name": "next" }],
+
+    // Path alias so imports read `@/lib/esv` instead of `../../lib/esv`.
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,54 @@
+/* app/globals.css — Tailwind layers + shadcn/ui design tokens.
+ *
+ * The CSS variables below are the design tokens referenced by tailwind.config.ts
+ * (e.g. `bg-background` -> hsl(var(--background))). Defining light values on
+ * :root and dark values on `.dark` is what makes the planned dark-mode feature a
+ * single class toggle on <html> — no component changes required. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light theme — warm, paper-like for comfortable reading. */
+    --background: 40 33% 98%;
+    --foreground: 20 14% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 12%;
+    --primary: 24 30% 38%;
+    --primary-foreground: 40 33% 98%;
+    --muted: 40 20% 94%;
+    --muted-foreground: 25 8% 45%;
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 24 30% 38%;
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 98%;
+    --radius: 0.6rem;
+  }
+
+  /* Dark theme tokens are pre-defined so Phase 2 only has to toggle `.dark`. */
+  .dark {
+    --background: 20 14% 9%;
+    --foreground: 40 30% 92%;
+    --card: 20 14% 12%;
+    --card-foreground: 40 30% 92%;
+    --primary: 30 35% 62%;
+    --primary-foreground: 20 14% 9%;
+    --muted: 20 10% 18%;
+    --muted-foreground: 30 10% 62%;
+    --border: 20 10% 22%;
+    --input: 20 10% 22%;
+    --ring: 30 35% 62%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
