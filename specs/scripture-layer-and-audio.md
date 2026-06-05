@@ -1,13 +1,14 @@
-# Spec: Scripture data layer — multi-translation text + audio playback
+# Spec: Scripture data layer — Bridgetown lectionary + multi-translation text
+
+> **Scope note:** Audio playback (Bible Brain) is deferred until the Bible Brain
+> API key arrives. This pass covers lectionary switch + text translations only.
 
 ## Outcome
 
-The app serves scripture text in ESV, NIV, or NLT. The user picks a translation
-from pills in the page header; the choice persists in a cookie so it survives
-reloads. A sticky bottom audio bar lets the user listen to all four readings
-played back-to-back, with play/pause and skip prev/next controls. When a passage
-has no audio, the player skips it and shows a self-dismissing toast naming the
-skipped reading.
+The app shows today's readings from the Bridgetown BREAD 2026 plan (not the BCP
+lectionary). Scripture text is fetched from API.Bible in NIV, NLT, or MSG (The
+Message). The user picks a translation from pills in the page header; the choice
+persists in a cookie so it survives reloads. NIV is the default for new visitors.
 
 ## Context
 
@@ -15,117 +16,96 @@ skipped reading.
 - `lib/esv.ts` — replaced entirely by `lib/scripture.ts`
 
 **Files to create:**
+- `lib/breadOffice.ts` — server-only. Loads `data/bread-2026.json`, looks up
+  today's ISO date, returns `ReadingRef[]` (mapping the 4 ordered readings to
+  roles `psalm → first → second → gospel`). Also returns `feast` and `fast` flags.
+  Falls back gracefully when today's date has no entry.
 - `lib/scripture.ts` — server-only. Fetches passage text from API.Bible for any
-  of the three translations. Mirrors `lib/esv.ts`'s public contract:
-  `fetchReadings(refs, translation)` → `Reading[]`. Throws `ScriptureConfigError`
-  on missing API key (same pattern as `EsvConfigError`).
-- `lib/audio.ts` — server-only. Given a reference string + translation, calls
-  the Bible Brain API to resolve a fileset audio URL. Returns `string | null`.
-  **Prerequisite:** register for a Bible Brain API key and look up the fileset IDs
-  for ESV, NIV, and NLT audio before implementing this module.
-- `app/api/audio/route.ts` — Route Handler. Reads `?ref=` and `?translation=`
-  query params, calls `lib/audio.ts`, returns an HTTP 302 redirect to the CDN
-  audio URL. `BIBLEBRAIN_API_KEY` never appears in any response sent to the client.
+  of the three translations. Public contract: `fetchReadings(refs, translation)`
+  → `Reading[]`. Throws `ScriptureConfigError` on missing API key.
+
+  API.Bible Bible IDs (confirmed via API):
+  - NIV:  `78a9f6124f344018-01`
+  - NLT:  `d6e14a625393b4da-01`
+  - MSG:  `6f11a7de016f942e-01`
+
+  Endpoint: `GET https://api.scripture.api.bible/v1/bibles/{bibleId}/passages/{passageId}`
+  Params: `content-type=text`, `include-verse-numbers=true`, `include-titles=false`
+
 - `app/actions/translation.ts` — Server Action. Validates the value is in
   `Translation`, sets the `translation` cookie (path `/`, max-age 1 year),
   calls `revalidatePath('/')`.
 - `components/TranslationPicker.tsx` — `"use client"`. Three pill/tab buttons
-  (ESV · NIV · NLT) in the page header. Active pill highlighted. Calls
+  (NIV · NLT · MSG) in the page header. Active pill highlighted. Calls
   `setTranslation()` server action on selection.
-- `components/AudioPlayer.tsx` — `"use client"`. Sticky bottom bar
-  (`position: fixed, bottom: 0`). Receives `Reading[]` as a prop; fetches audio
-  URLs lazily from `/api/audio` when the user presses play. Controls: play/pause,
-  skip to previous reading, skip to next reading. Displays the current reading's
-  reference. Uses the native `<audio>` element — no third-party player library.
 
 **Files to modify:**
 - `types/index.ts`
-  - `Translation` union: `"ESV" | "NIV" | "NLT"` (drop unused `"KJV"` and `"RSV"`)
-  - Add `ApiBiblePassageResponse` (mirrors `EsvPassageResponse` — `{ data: { content, reference, copyright } }`)
-  - Add `AudioTrack = { reading: Reading; audioUrl: string | null }`
+  - `Translation` union: `"NIV" | "NLT" | "MSG"` (drop ESV, KJV, RSV entirely)
+  - Add `ApiBiblePassageResponse`: `{ data: { content: string; reference: string; copyright: string } }`
+  - Remove `EsvPassageResponse`
 - `app/page.tsx`
+  - Replace BCP lectionary calls with `getReadingRefs()` from `lib/breadOffice.ts`
   - Read `translation` cookie via `cookies()` from `next/headers`; default `"NIV"`
   - Pass `translation` to `fetchReadings`
-  - Render `<TranslationPicker activeTranslation={translation} />` inside the header area
-  - Render `<AudioPlayer readings={readings} />` as last child of `<main>` (CSS `position: fixed` keeps it sticky regardless of DOM position)
-  - Replace the hard-coded ESV footer with a dynamic copyright line keyed on active translation
+  - Render `<TranslationPicker activeTranslation={translation} />` in the header
+  - Replace hard-coded ESV footer with dynamic copyright line keyed on translation
+  - Remove imports of `resolveLiturgicalDay`, `getDayPlan`, `fetchReadings` from old libs
 - `app/layout.tsx` — no change
-- `lib/dailyOffice.ts`, `lib/liturgicalCalendar.ts`, bundled JSON — no change
+- `lib/dailyOffice.ts`, `lib/liturgicalCalendar.ts`, bundled BCP JSON — no change
+  (keep but no longer used by page.tsx; don't delete)
 
-**New env vars** (add to `.env.local.example`):
+**New env vars** — already in `.env.local`:
 ```
-APIBIBLE_API_KEY=     # scripture.api.bible — free Starter plan, pick ESV + NIV + NLT
-BIBLEBRAIN_API_KEY=   # faithcomesbyhearing.com/bible-brain — free non-commercial
+APIBIBLE_API_KEY=   # scripture.api.bible — free Starter plan
 ```
-
-**New dependency:**
-- `sonner` — shadcn-recommended toast for App Router. Add to `package.json` and
-  wrap `<Toaster />` in the root layout. One `toast()` call in `AudioPlayer` on
-  skip.
 
 **Copyright notices** (dynamic footer keyed on `Translation`):
-- ESV: "Scripture quotations from the ESV® Bible (crossway.org). For personal use."
 - NIV: "Scripture taken from the Holy Bible, NIV®. © 1973–2011 Biblica, Inc.™ Used by permission of Zondervan."
-- NLT: "Scripture taken from the Holy Bible, New Living Translation, © 1996–2015 Tyndale House Foundation."
+- NLT: "Scripture quotations taken from the Holy Bible, New Living Translation, © 1996–2015 Tyndale House Foundation."
+- MSG: "Scripture taken from THE MESSAGE. © 1993–2018 by Eugene H. Peterson. Used by permission of NavPress."
 
 ## Acceptance criteria
 
+### Bridgetown lectionary
+
+1. Given today's date exists in `data/bread-2026.json`, when the page loads,
+   then the four readings shown (psalm, OT, NT, gospel) match that day's entry.
+2. Given today's date has no entry in `bread-2026.json` (e.g., a future date
+   beyond the plan), when the page loads, then the page renders without crashing
+   and shows a graceful "no reading for today" message instead of cards.
+
 ### Translation text
 
-1. Given no `translation` cookie, when the page loads, then readings are fetched
+3. Given no `translation` cookie, when the page loads, then readings are fetched
    in NIV and the NIV copyright notice appears in the footer.
-2. Given a `translation=ESV` cookie, when the page loads, then readings are
-   fetched in ESV and the ESV copyright notice appears in the footer.
-3. Given a `translation=NLT` cookie, when the page loads, then readings are
+4. Given a `translation=NLT` cookie, when the page loads, then readings are
    fetched in NLT and the NLT copyright notice appears in the footer.
-4. Given the translation picker in the header, when the user clicks a different
+5. Given a `translation=MSG` cookie, when the page loads, then readings are
+   fetched in MSG and the MSG copyright notice appears in the footer.
+6. Given the translation picker in the header, when the user clicks a different
    translation pill, then the cookie is updated, the page re-renders with the
    new translation's text, and that pill is highlighted as active.
-5. Given API.Bible fails to return text for one passage (non-2xx), when the page
+7. Given API.Bible fails to return text for one passage (non-2xx), when the page
    renders, then that card shows the existing "Couldn't load this passage" fallback
    and the remaining readings render normally.
-6. Given `APIBIBLE_API_KEY` is missing or blank, when any reading is fetched,
+8. Given `APIBIBLE_API_KEY` is missing or blank, when any reading is fetched,
    then a `ScriptureConfigError` is thrown (surfaces via `app/error.tsx`) and
    the API key string is never logged or sent to the client.
 
-### Audio playback
-
-7. Given the page has loaded, when the user presses play in the sticky audio bar,
-   then the first reading's audio begins playing via `<audio src>` pointing to
-   `/api/audio?ref=...&translation=...`.
-8. Given audio is playing reading N, when the user presses skip next (or the
-   audio ends naturally), then reading N+1's audio begins.
-9. Given audio is playing the last reading and it ends naturally, then the player
-   stops (does not loop back to the first reading).
-10. Given audio is playing and the user presses skip previous, then reading N-1's
-    audio begins (or the current reading restarts if already at the first).
-11. Given Bible Brain returns no audio for reading N, when the player reaches it,
-    then reading N is skipped AND a toast appears: "No audio for [reference]",
-    auto-dismissing after 3 seconds, while the next reading begins.
-12. Given the audio Route Handler receives `GET /api/audio?ref=John+3:16&translation=NIV`,
-    then the response is an HTTP 302 to a Bible Brain CDN URL, and the
-    `BIBLEBRAIN_API_KEY` string does not appear anywhere in the response headers
-    or body.
-13. Given the audio Route Handler receives a request with missing or invalid
-    `ref` or `translation` params, then it returns HTTP 400.
-14. Audio playback is always user-initiated — the player renders in a paused state
-    on page load (no autoplay; browsers block it anyway).
-
 ### Type safety
 
-15. `tsc --noEmit` passes with zero errors after the refactor.
-16. Every `switch` or exhaustive map over `Translation` covers `"ESV" | "NIV" | "NLT"`
-    and no dead code references `"KJV"` or `"RSV"`.
+9. `tsc --noEmit` passes with zero errors after the refactor.
+10. Every `switch` or exhaustive map over `Translation` covers `"NIV" | "NLT" | "MSG"`
+    and no dead code references `"ESV"`, `"KJV"`, or `"RSV"`.
 
 ## Guardrails
 
-- Do NOT touch `lib/liturgicalCalendar.ts` or `lib/dailyOffice.ts`.
+- Do NOT touch `lib/liturgicalCalendar.ts` or `lib/dailyOffice.ts` (keep but stop using them from `page.tsx`).
 - Do NOT add per-reading translation overrides (one global cookie, not per-card state).
-- Do NOT add playback speed controls (deferred).
-- Do NOT loop audio after the last reading ends.
-- Do NOT move `<AudioPlayer>` into `app/layout.tsx`.
-- No new npm dependencies beyond `sonner`.
-- `lib/scripture.ts` and `lib/audio.ts` must both have `import "server-only"` as
+- Do NOT add audio in this pass (deferred to a future slice once Bible Brain key arrives).
+- No new npm dependencies beyond what's needed for Vitest.
+- `lib/scripture.ts` and `lib/breadOffice.ts` must both have `import "server-only"` as
   their first line — enforced at build time.
 
 ## Verification
@@ -135,10 +115,8 @@ adds it). Write failing tests first for each slice.
 
 Gate: `npm run typecheck && npm test`
 
-**Suggested tracer slices (in order):**
-1. Install Vitest + `lib/scripture.ts` unit tests → implementation (replaces `lib/esv.ts`)
-2. `app/actions/translation.ts` + `TranslationPicker` + wire into `app/page.tsx`
-   (cookie read, footer, picker render)
-3. `lib/audio.ts` + `app/api/audio/route.ts` unit tests → implementation
-4. `AudioPlayer` component (play/pause, skip, toast on failure)
-5. Wire `<AudioPlayer readings={readings} />` into `app/page.tsx` + types cleanup
+**Tracer slices (in order):**
+1. Install Vitest + `lib/breadOffice.ts` unit tests → implementation (Bridgetown lectionary lookup)
+2. `lib/scripture.ts` unit tests → implementation (API.Bible fetch, replaces `lib/esv.ts`)
+3. `types/index.ts` update + `app/actions/translation.ts` + `TranslationPicker`
+4. Wire everything into `app/page.tsx`: Bridgetown refs → scripture fetch → picker render → dynamic copyright footer

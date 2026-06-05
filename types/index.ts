@@ -41,11 +41,12 @@ export type LiturgicalSeason =
 export type OfficeTime = "morning" | "midday" | "evening" | "compline";
 
 /**
- * Bible translations. ESV is the only one wired up in Phase 1; the others are
- * here so the translation-picker feature has a type to target. `as const`-style
- * unions like this pair naturally with exhaustive `switch` statements.
+ * Bible translations supported by API.Bible in this app. The union pairs
+ * naturally with exhaustive `switch` statements and `Record<Translation, ...>`
+ * maps — adding a translation here causes the compiler to flag every switch
+ * or record that doesn't handle it.
  */
-export type Translation = "ESV" | "NIV" | "KJV" | "RSV";
+export type Translation = "NIV" | "NLT" | "MSG";
 
 /* ------------------------------------------------------------------ *
  * 2. RAW DATA SHAPES (what the bundled JSON literally contains)
@@ -164,19 +165,19 @@ export interface DailyOffice {
 }
 
 /* ------------------------------------------------------------------ *
- * 4. ESV API TYPES
+ * 4. API.BIBLE TYPES
  * ------------------------------------------------------------------ */
 
 /**
- * The slice of the ESV `/v3/passage/text/` JSON response we care about.
- * The real payload has more fields; we model only what we use. Modeling a
- * SUBSET like this is a deliberate, common pattern — you don't owe the compiler
- * a full mirror of someone else's API.
+ * The slice of the API.Bible passage response we use (content-type=text).
+ * We model only the fields we read — a deliberate subset pattern.
  */
-export interface EsvPassageResponse {
-  query: string;
-  canonical: string;
-  passages: string[]; // one string per passage; we join/take the first
+export interface ApiBiblePassageResponse {
+  data: {
+    content: string; // plain-text passage body
+    reference: string; // canonical reference e.g. "Psalms 103"
+    copyright: string; // translation copyright notice
+  };
 }
 
 /* ------------------------------------------------------------------ *
