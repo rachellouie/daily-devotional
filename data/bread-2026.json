@@ -1,0 +1,3652 @@
+{
+  "2026-01-01": {
+    "readings": [
+      "Psalm 103",
+      "Isaiah 62:1-12",
+      "Revelation 19:11-16",
+      "Matthew 1:18-25"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-02": {
+    "readings": [
+      "Psalm 34",
+      "1 Kings 19:1-8",
+      "Ephesians 4:1-16",
+      "John 6:1-14"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-03": {
+    "readings": [
+      "Psalm 68",
+      "1 Kings 19:9-18",
+      "Ephesians 4:17-32",
+      "John 6:15-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-04": {
+    "readings": [
+      "Psalm 85",
+      "Joshua 3:14-4:7",
+      "Ephesians 5:1-20",
+      "John 9:1-12, 35-38"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-05": {
+    "readings": [
+      "Psalm 2",
+      "Jonah 2:2-9",
+      "Ephesians 6:10-20",
+      "John 11:17-27, 38-44"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-06": {
+    "readings": [
+      "Psalm 46",
+      "Isaiah 49:1-7",
+      "Revelation 21:22-27",
+      "Matthew 2:1-12"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-01-07": {
+    "readings": [
+      "Psalm 103",
+      "Deuteronomy 8:1-3",
+      "Colossians 1:1-14",
+      "John 6:30-33, 48-51"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-08": {
+    "readings": [
+      "Psalm 117",
+      "Exodus 17:1-7",
+      "Colossians 1:15-23",
+      "John 7:37-52"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-09": {
+    "readings": [
+      "Psalm 121",
+      "Isaiah 45:14-19",
+      "Colossians 1:24-2:7",
+      "John 8:12-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-10": {
+    "readings": [
+      "Psalm 138",
+      "Jeremiah 23:1-8",
+      "Colossians 2:8-23",
+      "John 10:7-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-11": {
+    "readings": [
+      "Psalm 146",
+      "Genesis 1:1-2:3",
+      "Ephesians 1:3-14",
+      "John 1:29-34"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-01-12": {
+    "readings": [
+      "Psalm 1",
+      "Genesis 2:4-25",
+      "Hebrews 1:1-14",
+      "John 1:1-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-13": {
+    "readings": [
+      "Psalm 5",
+      "Genesis 3:1-24",
+      "Hebrews 2:1-10",
+      "John 1:19-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-14": {
+    "readings": [
+      "Psalm 119:1-24",
+      "Genesis 4:1-16",
+      "Hebrews 2:11-18",
+      "John 1:35-42"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-15": {
+    "readings": [
+      "Psalm 18:1-20",
+      "Genesis 4:17-26",
+      "Hebrews 3:1-11",
+      "John 1:43-51"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-16": {
+    "readings": [
+      "Psalm 16",
+      "Genesis 6:1-8",
+      "Hebrews 3:12-19",
+      "John 2:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-17": {
+    "readings": [
+      "Psalm 20",
+      "Genesis 6:9-22",
+      "Hebrews 4:1-13",
+      "John 2:13-22"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-18": {
+    "readings": [
+      "Psalm 148",
+      "Genesis 7:1-23",
+      "Ephesians 4:1-16",
+      "Mark 3:7-19"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-19": {
+    "readings": [
+      "Psalm 25",
+      "Genesis 8:6-22",
+      "Hebrews 4:14-5:6",
+      "John 2:23-3:15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-20": {
+    "readings": [
+      "Psalm 26",
+      "Genesis 9:1-17",
+      "Hebrews 5:7-14",
+      "John 3:16-21"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-21": {
+    "readings": [
+      "Psalm 38",
+      "Genesis 9:18-29",
+      "Hebrews 6:1-12",
+      "John 3:22-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-22": {
+    "readings": [
+      "Psalm 37:1-18",
+      "Genesis 11:1-9",
+      "Hebrews 6:13-20",
+      "John 4:1-15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-23": {
+    "readings": [
+      "Psalm 31",
+      "Genesis 11:27-12:8",
+      "Hebrews 7:1-17",
+      "John 4:16-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-24": {
+    "readings": [
+      "Psalm 30",
+      "Genesis 12:9-13:1",
+      "Hebrews 7:18-28",
+      "John 4:27-42"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-25": {
+    "readings": [
+      "Psalm 63",
+      "Genesis 13:2-18",
+      "Galatians 2:1-10",
+      "Mark 7:31-37"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-26": {
+    "readings": [
+      "Psalm 41",
+      "Genesis 14:1-24",
+      "Hebrews 8:1-13",
+      "John 4:43-54"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-27": {
+    "readings": [
+      "Psalm 45",
+      "Genesis 15:1-21",
+      "Hebrews 9:1-14",
+      "John 5:1-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-28": {
+    "readings": [
+      "Psalm 119:49-72",
+      "Genesis 16:1-14",
+      "Hebrews 9:15-28",
+      "John 5:19-29"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-29": {
+    "readings": [
+      "Psalm 50",
+      "Genesis 16:15-17:14",
+      "Hebrews 10:1-10",
+      "John 5:30-47"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-30": {
+    "readings": [
+      "Psalm 40",
+      "Genesis 17:15-27",
+      "Hebrews 10:11-25",
+      "John 6:1-15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-01-31": {
+    "readings": [
+      "Psalm 55",
+      "Genesis 18:1-15",
+      "Hebrews 10:26-39",
+      "John 6:16-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-01": {
+    "readings": [
+      "Psalm 24",
+      "Genesis 18:16-33",
+      "Galatians 5:13-25",
+      "Mark 8:22-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-02": {
+    "readings": [
+      "Psalm 56",
+      "Genesis 19:1-29",
+      "Hebrews 11:1-12",
+      "John 6:27-40"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-03": {
+    "readings": [
+      "Psalm 61",
+      "Genesis 21:1-21",
+      "Hebrews 11:13-22",
+      "John 6:41-51"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-04": {
+    "readings": [
+      "Psalm 72",
+      "Genesis 22:1-18",
+      "Hebrews 11:23-31",
+      "John 6:52-59"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-05": {
+    "readings": [
+      "Psalm 70",
+      "Genesis 23:1-20",
+      "Hebrews 11:32-12:2",
+      "John 6:60-71"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-06": {
+    "readings": [
+      "Psalm 69",
+      "Genesis 24:1-27",
+      "Hebrews 12:3-11",
+      "John 7:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-07": {
+    "readings": [
+      "Psalm 75",
+      "Genesis 24:28-51",
+      "Hebrews 12:12-29",
+      "John 7:14-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-08": {
+    "readings": [
+      "Psalm 93",
+      "Genesis 24:52-67",
+      "2 Timothy 2:14-21",
+      "Mark 10:13-22"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-09": {
+    "readings": [
+      "Psalm 80",
+      "Genesis 25:19-34",
+      "Hebrews 13:1-16",
+      "John 7:37-52"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-10": {
+    "readings": [
+      "Psalm 78:1-39",
+      "Genesis 26:1-33",
+      "Hebrews 13:17-25",
+      "John 7:53-8:11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-11": {
+    "readings": [
+      "Psalm 119:97-120",
+      "Genesis 27:1-29",
+      "Romans 12:1-8",
+      "John 8:12-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-12": {
+    "readings": [
+      "Psalm 83",
+      "Genesis 27:30-45",
+      "Romans 12:9-21",
+      "John 8:21-32"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-13": {
+    "readings": [
+      "Psalm 88",
+      "Genesis 27:46-28:22",
+      "Romans 13:1-14",
+      "John 8:33-47"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-14": {
+    "readings": [
+      "Psalm 87",
+      "Genesis 29:1-20",
+      "Romans 14:1-23",
+      "John 8:47-59"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-15": {
+    "readings": [
+      "Psalm 149",
+      "Psalm 150",
+      "2 Cor. 3:7-18",
+      "Luke 9:18-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-16": {
+    "readings": [
+      "Psalm 9",
+      "Proverbs 27:1-12",
+      "Philippians 2:1-13",
+      "John 18:15-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-02-17": {
+    "readings": [
+      "Psalm 28",
+      "Proverbs 30:1-4, 24-33",
+      "Philippians 3:1-11",
+      "John 18:28-38"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-02-18": {
+    "readings": [
+      "Psalm 90",
+      "Amos 5:6-15",
+      "Hebrews 12:1-14",
+      "Matthew 4:1-11"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-19": {
+    "readings": [
+      "Psalm 37:18-40",
+      "Habakkuk 3:1-18",
+      "Philippians 3:12-21",
+      "John 17:1-8"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-20": {
+    "readings": [
+      "Psalm 31",
+      "Ezekiel 18:1-4, 25-32",
+      "Philippians 4:1-9",
+      "John 17:9-19"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-21": {
+    "readings": [
+      "Psalm 32",
+      "Ezekiel 39:21-29",
+      "Philippians 4:10-20",
+      "John 17:20-26"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-22": {
+    "readings": [
+      "Psalm 98",
+      "Daniel 9:3-10",
+      "Hebrews 2:10-18",
+      "John 12:44-50"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-02-23": {
+    "readings": [
+      "Psalm 52",
+      "Genesis 37:1-11",
+      "1 Cor. 1:1-19",
+      "Mark 1:1-13"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-24": {
+    "readings": [
+      "Psalm 47",
+      "Genesis 37:12-24",
+      "1 Cor. 1:20-31",
+      "Mark 1:14-28"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-25": {
+    "readings": [
+      "Psalm 49",
+      "Genesis 37:25-36",
+      "1 Cor. 2:1-13",
+      "Mark 1:29-45"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-26": {
+    "readings": [
+      "Psalm 59",
+      "Genesis 39:1-23",
+      "1 Cor. 2:14-3:15",
+      "Mark 2:1-12"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-27": {
+    "readings": [
+      "Psalm 40",
+      "Genesis 40:1-23",
+      "1 Cor. 3:16-23",
+      "Mark 2:13-22"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-02-28": {
+    "readings": [
+      "Psalm 138",
+      "Genesis 41:1-13",
+      "1 Cor. 4:1-7",
+      "Mark 2:23-3:6"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-01": {
+    "readings": [
+      "Psalm 29",
+      "Genesis 41:14-45",
+      "Romans 6:3-14",
+      "John 5:19-24"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-03-02": {
+    "readings": [
+      "Psalm 57",
+      "Genesis 41:46-57",
+      "1 Cor. 4:8-21",
+      "Mark 3:7-19"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-03": {
+    "readings": [
+      "Psalm 62",
+      "Genesis 42:1-17",
+      "1 Cor. 5:1-8",
+      "Mark 3:20-35"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-04": {
+    "readings": [
+      "Psalm 119:73-96",
+      "Genesis 42:18-28",
+      "1 Cor. 5:9-6:8",
+      "Mark 4:1-20"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-05": {
+    "readings": [
+      "Psalm 71",
+      "Genesis 42:29-38",
+      "1 Cor. 6:12-30",
+      "Mark 4:21-34"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-06": {
+    "readings": [
+      "Psalm 69",
+      "Genesis 43:1-15",
+      "1 Cor. 7:1-9",
+      "Mark 4:35-41"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-07": {
+    "readings": [
+      "Psalm 76",
+      "Genesis 43:16-34",
+      "1 Cor. 7:10-24",
+      "Mark 5:1-20"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-08": {
+    "readings": [
+      "Psalm 96",
+      "Genesis 44:1-17",
+      "Romans 8:1-10",
+      "John 5:25-29"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-03-09": {
+    "readings": [
+      "Psalm 77",
+      "Genesis 44:18-34",
+      "1 Cor.7:25-31",
+      "Mark 5:21-43"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-10": {
+    "readings": [
+      "Psalm 78:40-72",
+      "Genesis 45:1-15",
+      "1 Cor. 7:32-40",
+      "Mark 6:1-13"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-11": {
+    "readings": [
+      "Psalm 81",
+      "Genesis 45:16-28",
+      "1 Cor. 8:1-13",
+      "Mark 6:13-29"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-12": {
+    "readings": [
+      "Psalm 42",
+      "Genesis 46:1-7, 28-34",
+      "1 Cor. 9:1-15",
+      "Mark 6:30-46"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-13": {
+    "readings": [
+      "Psalm 88",
+      "Genesis 47:1-26",
+      "1 Cor. 9:16-27",
+      "Mark 6:47-56"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-14": {
+    "readings": [
+      "Psalm 90",
+      "Genesis 47:27-48:7",
+      "1 Cor. 10:1-13",
+      "Mark 7:1-23"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-15": {
+    "readings": [
+      "Psalm 66",
+      "Genesis 48:8-22",
+      "Romans 8:11-25",
+      "John 6:27-40"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-03-16": {
+    "readings": [
+      "Psalm 89:1-18",
+      "Genesis 49:1-28",
+      "1 Cor. 10:14-11:1",
+      "Mark 7:24-37"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-17": {
+    "readings": [
+      "Psalm 97",
+      "Genesis 49:29-50:14",
+      "1 Cor. 11:17-34",
+      "Mark 8:1-10"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-18": {
+    "readings": [
+      "Psalm 101",
+      "Genesis 50:15-26",
+      "1 Cor. 12:1-11",
+      "Mark 8:11-26"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-19": {
+    "readings": [
+      "Psalm 69",
+      "Exodus 1:6-22",
+      "1 Cor. 12:12-26",
+      "Mark 8:27-9:1"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-20": {
+    "readings": [
+      "Psalm 102",
+      "Exodus 2:1-22",
+      "1 Cor. 12:27-13:3",
+      "Mark 9:2-13"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-21": {
+    "readings": [
+      "Psalm 107:33-43",
+      "Exodus 2:23-3:15",
+      "1 Cor. 13:1-13",
+      "Mark 9:14-29"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-22": {
+    "readings": [
+      "Psalm 118",
+      "Exodus 3:16-4:9",
+      "Romans 12:1-21",
+      "John 8:46-59"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-03-23": {
+    "readings": [
+      "Psalm 31",
+      "Exodus 4:10-31",
+      "1 Cor. 14:1-19",
+      "Mark 9:30-41"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-24": {
+    "readings": [
+      "Psalm 120",
+      "Exodus 5:1-6:1",
+      "1 Cor. 14:20-40",
+      "Mark 9:42-50"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-25": {
+    "readings": [
+      "Psalm 119:125-176",
+      "Exodus 7:8-24",
+      "2 Cor. 2:14-3:6",
+      "Mark 10:1-16"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-26": {
+    "readings": [
+      "Psalm 131",
+      "Exodus 7:25-8:19",
+      "2 Cor. 3:7-18",
+      "Mark 10:17-31"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-27": {
+    "readings": [
+      "Psalm 22",
+      "Exodus 9:13-35",
+      "2 Cor. 4:1-12",
+      "Mark 10:32-45"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-28": {
+    "readings": [
+      "Psalm 137",
+      "Exodus 10:21-11:8",
+      "2 Cor. 4:13-18",
+      "Mark 10:46-52"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-29": {
+    "readings": [
+      "Psalm 103",
+      "Zechariah 9:9-12",
+      "1 Timothy 6:12-16",
+      "Luke 19:28-48"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-03-30": {
+    "readings": [
+      "Psalm 51",
+      "Lam. 1:1-12",
+      "2 Cor. 1:1-7",
+      "Mark 11:12-25"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-03-31": {
+    "readings": [
+      "Psalm 94",
+      "Lam. 1:17-22",
+      "2 Cor. 1:8-22",
+      "Mark 11:27-33"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-04-01": {
+    "readings": [
+      "Psalm 55",
+      "Lam. 2:1-17",
+      "2 Cor. 1:23-2:11",
+      "Mark 12:1-11"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-04-02": {
+    "readings": [
+      "Psalm 143",
+      "Lam. 2:10-18",
+      "1 Cor. 10:14-17",
+      "Mark 14:12-25"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-04-03": {
+    "readings": [
+      "Psalm 40",
+      "Lam. 3:1-9, 19-33",
+      "1 Peter 1:10-20",
+      "John 19:16-42"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-04-04": {
+    "readings": [
+      "Psalm 27",
+      "Lam. 3:37-58",
+      "Hebrews 4:1-16",
+      "Luke 23:50-56"
+    ],
+    "feast": false,
+    "fast": true
+  },
+  "2026-04-05": {
+    "readings": [
+      "Psalm 148",
+      "Exodus 12:1-13",
+      "Luke 24:13-35",
+      "John 20:1-23"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-04-06": {
+    "readings": [
+      "Psalm 93",
+      "Exodus 12:14-27",
+      "1 Cor. 15:1-11",
+      "Mark 16:1-8"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-07": {
+    "readings": [
+      "Psalm 103",
+      "Exodus 12:28-39",
+      "1 Cor. 15:12-28",
+      "Mark 16:9-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-08": {
+    "readings": [
+      "Psalm 97",
+      "Exodus 12:40-51",
+      "1 Cor. 15:29-41",
+      "Matthew 28:1-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-09": {
+    "readings": [
+      "Psalm 146",
+      "Exodus 13:3-10",
+      "1 Cor. 15:41-50",
+      "Matthew 28:16-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-10": {
+    "readings": [
+      "Psalm 136",
+      "Exodus 13:1-2, 11-16",
+      "1 Cor. 15:51-58",
+      "Luke 24:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-11": {
+    "readings": [
+      "Psalm 145",
+      "Exodus 13:17-14:4",
+      "2 Cor. 4:16-5:10",
+      "Mark 12:18-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-12": {
+    "readings": [
+      "Psalm 147",
+      "Exodus 14:5-22",
+      "1 John 1:1-7",
+      "John 14:1-7"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-13": {
+    "readings": [
+      "Psalm 2",
+      "Exodus 14:21-31",
+      "1 Peter 1:1-12",
+      "John 14:1-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-14": {
+    "readings": [
+      "Psalm 6",
+      "Exodus 15:1-21",
+      "1 Peter 1:13-25",
+      "John 14:18-31"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-15": {
+    "readings": [
+      "Psalm 12",
+      "Exodus 15:22-16:9",
+      "1 Peter 2:1-10",
+      "John 15:1-11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-16": {
+    "readings": [
+      "Psalm 18:20-50",
+      "Exodus 16:10-22",
+      "1 Peter 2:11-25",
+      "John 15:12-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-17": {
+    "readings": [
+      "Psalm 17",
+      "Exodus 16:23-36",
+      "1 Peter 3:13-4:6",
+      "John 16:1-15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-18": {
+    "readings": [
+      "Psalm 21",
+      "Exodus 17:1-16",
+      "1 Peter 4:7-19",
+      "John 16:16-33"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-19": {
+    "readings": [
+      "Psalm 150",
+      "Exodus 18:1-12",
+      "1 John 2:7-17",
+      "Mark 16:9-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-20": {
+    "readings": [
+      "Psalm 15",
+      "Exodus 18:13-27",
+      "1 Peter 5:1-14",
+      "Matthew 1:1-17, 3:1-6"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-21": {
+    "readings": [
+      "Psalm 36",
+      "Exodus 19:1-15",
+      "Colossians 1:1-14",
+      "Matthew 3:7-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-22": {
+    "readings": [
+      "Psalm 38",
+      "Exodus 19:16-25",
+      "Colossians 1:15-23",
+      "Matthew 3:13-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-23": {
+    "readings": [
+      "Psalm 37:1-17",
+      "Exodus 20:1-21",
+      "Colossians 1:24-2:7",
+      "Matthew 4:1-11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-24": {
+    "readings": [
+      "Psalm 105:1-22",
+      "Exodus 24:1-18",
+      "Colossians 2:8-23",
+      "Matthew 4:12-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-25": {
+    "readings": [
+      "Psalm 42",
+      "Exodus 25:1-22",
+      "Colossians 3:1-17",
+      "Matthew 4:18-25"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-26": {
+    "readings": [
+      "Psalm 103",
+      "Exodus 28:1-4, 30-38",
+      "1 John 2:18-29",
+      "Mark 6:30-44"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-27": {
+    "readings": [
+      "Psalm 44",
+      "Exodus 32:1-20",
+      "Colossians 3:18-4:6-18",
+      "Matthew 5:1-10"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-28": {
+    "readings": [
+      "Psalm 48",
+      "Exodus 32:21-34",
+      "1 Thes. 1:1-10",
+      "Matthew 5:11-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-04-29": {
+    "readings": [
+      "Psalm 53",
+      "Exodus 33:1-23",
+      "1 Thes. 2:1-12",
+      "Matthew 5:17-20"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-04-30": {
+    "readings": [
+      "Psalm 60",
+      "Exodus 34:1-17",
+      "1 Thes. 2:13-20",
+      "Matthew 5:21-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-01": {
+    "readings": [
+      "Psalm 51",
+      "Exodus 34:18-35",
+      "1 Thes. 3:1-13",
+      "Matthew 5:27-37"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-02": {
+    "readings": [
+      "Psalm 139",
+      "Exodus 40:18-38",
+      "1 Thes. 4:1-12",
+      "Matthew 5:38-48"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-03": {
+    "readings": [
+      "Psalm 84",
+      "Leviticus 8:1-13, 30-36",
+      "Hebrews 12:1-14",
+      "Luke 4:16-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-04": {
+    "readings": [
+      "Psalm 64",
+      "Leviticus 16:1-19",
+      "1 Thes. 4:13-18",
+      "Matthew 6:1-6, 16-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-05": {
+    "readings": [
+      "Psalm 61",
+      "Leviticus 16:20-34",
+      "1 Thes. 5:1-11",
+      "Matthew 6:7-15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-06": {
+    "readings": [
+      "Psalm 119:73-96",
+      "Leviticus 19:1-18",
+      "1 Thes. 5:12-28",
+      "Matthew 6:19-24"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-07": {
+    "readings": [
+      "Psalm 70",
+      "Leviticus 19:26-37",
+      "2 Thes. 1:1-12",
+      "Matthew 6:25-34"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-08": {
+    "readings": [
+      "Psalm 106:19-48",
+      "Leviticus 23:1-22",
+      "2 Thes. 2:1-17",
+      "Matthew 7:1-12"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-05-09": {
+    "readings": [
+      "Psalm 27",
+      "Leviticus 23:23-44",
+      "2 Thes. 3:1-18",
+      "Matthew 7:13-21"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-10": {
+    "readings": [
+      "Psalm 34",
+      "Leviticus 25:1-17",
+      "James 1:2-8, 16-18",
+      "Luke 12:13-21"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-11": {
+    "readings": [
+      "Psalm 79",
+      "Leviticus 25:35-55",
+      "Colossians 1:9-14",
+      "Matthew 13:1-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-12": {
+    "readings": [
+      "Psalm 78:1-39",
+      "Leviticus 26:1-20",
+      "1 Timothy 2:1-6",
+      "Matthew 13:18-23"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-13": {
+    "readings": [
+      "Psalm 119:97-120",
+      "Leviticus 26:27-42",
+      "Ephesians 1:1-10",
+      "Matthew 22:41-46"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-14": {
+    "readings": [
+      "Psalm 24",
+      "Daniel 7:9-14",
+      "Hebrews 2:5-18",
+      "Luke 24:50-53"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-05-15": {
+    "readings": [
+      "Psalm 91",
+      "1 Samuel 2:1-10",
+      "Ephesians 2:1-10",
+      "Matthew 7:22-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-16": {
+    "readings": [
+      "Psalm 136",
+      "Numbers 11:16-29",
+      "Ephesians 2:11-22",
+      "Matthew 7:28-8:4"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-17": {
+    "readings": [
+      "Psalm 67",
+      "Exodus 3:1-12",
+      "Hebrews 12:18-29",
+      "Luke 10:17-24"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-18": {
+    "readings": [
+      "Psalm 89:19-52",
+      "Joshua 1:1-9",
+      "Ephesians 3:1-13",
+      "Matthew 8:5-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-19": {
+    "readings": [
+      "Psalm 99",
+      "1 Samuel 16:1-13a",
+      "Ephesians 3:14-21",
+      "Matthew 8:18-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-20": {
+    "readings": [
+      "Psalm 109",
+      "Isaiah 4:2-6",
+      "Ephesians 4:1-16",
+      "Matthew 8:28-34"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-21": {
+    "readings": [
+      "Psalm 105:23-45",
+      "Zechariah 4:1-14",
+      "Ephesians4:17-32",
+      "Matthew 9:1-8"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-22": {
+    "readings": [
+      "Psalm 107:1-32",
+      "Jeremiah 31:27-34",
+      "Ephesians 5:1-20",
+      "Matthew 9:9-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-23": {
+    "readings": [
+      "Psalm 108",
+      "Ezekiel 36:22-27",
+      "Ephesians 6:10-24",
+      "Matthew 9:18-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-24": {
+    "readings": [
+      "Psalm 114",
+      "Deuteronomy 16:9-12",
+      "Acts 2:1-12",
+      "Luke 10:25-28, 38-42"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-05-25": {
+    "readings": [
+      "Psalm 25",
+      "Proverbs 10:1-12",
+      "1 Timothy 1:1-17",
+      "Matthew 12:22-32"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-26": {
+    "readings": [
+      "Psalm 39",
+      "Proverbs 15:16-33",
+      "1 Timothy 1:18-2:8",
+      "Matthew 12:33-42"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-27": {
+    "readings": [
+      "Psalm 119:25-48",
+      "Proverbs 17:1-20",
+      "1 Timothy 3:1-16",
+      "Matthew 12:43-50"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-28": {
+    "readings": [
+      "Psalm 37:19-42",
+      "Proverbs 21:30-22:6",
+      "1 Timothy 4:1-16",
+      "Matthew 13:24-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-29": {
+    "readings": [
+      "Psalm 35",
+      "Proverbs 23:19-24:2",
+      "1 Timothy 5:17-25",
+      "Matthew 13:31-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-30": {
+    "readings": [
+      "Psalm 43",
+      "Proverbs 25:15-28",
+      "1 Timothy 6:6-21",
+      "Matthew 13:36-43"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-05-31": {
+    "readings": [
+      "Psalm 63",
+      "Ecclesiastes 1:1-11",
+      "Acts 8:26-40",
+      "Luke 11:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-01": {
+    "readings": [
+      "Psalm 41",
+      "Ecclesiastes 2:1-15",
+      "Galatians 1:1-17",
+      "Matthew 13:44-52"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-02": {
+    "readings": [
+      "Psalm 45",
+      "Ecclesiastes 2:16-26",
+      "Galatians 1:18-2:10",
+      "Matthew 13:53-58"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-03": {
+    "readings": [
+      "Psalm 119:49-72",
+      "Ecclesiastes 3:1-15",
+      "Galatians 2:11-21",
+      "Matthew 14:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-04": {
+    "readings": [
+      "Psalm 8",
+      "Ecclesiastes 3:16-4:3",
+      "Galatians 3:1-14",
+      "Matthew 14:13-21"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-05": {
+    "readings": [
+      "Psalm 40",
+      "Ecclesiastes 5:1-7",
+      "Galatians 3:15-22",
+      "Matthew 14:22-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-06": {
+    "readings": [
+      "Psalm 55",
+      "Ecclesiastes 5:8-20",
+      "Galatians 3:23-4:11",
+      "Matthew 15:1-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-07": {
+    "readings": [
+      "Psalm 24",
+      "Ecclesiastes 6",
+      "Acts 10:9-23",
+      "Luke 12:32-40"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-08": {
+    "readings": [
+      "Psalm 65",
+      "Ecclesiastes 7:1-14",
+      "Galatians 4:12-20",
+      "Matthew 15:21-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-09": {
+    "readings": [
+      "Psalm 62",
+      "Ecclesiastes 8:14-9:10",
+      "Galatians 4:21-31",
+      "Matthew 15:29-39"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-10": {
+    "readings": [
+      "Psalm 72",
+      "Ecclesiastes 9:11-18",
+      "Galatians 5:1-15",
+      "Matthew 16:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-11": {
+    "readings": [
+      "Psalm 71",
+      "Ecclesiastes 11:1-8",
+      "Galatians 5:16-24",
+      "Matthew 16:13-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-12": {
+    "readings": [
+      "Psalm 69",
+      "Ecclesiastes 11:9-12:14",
+      "Galatians 5:25-6:10",
+      "Matthew 16:21-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-13": {
+    "readings": [
+      "Psalm 75",
+      "Numbers 3:1-13",
+      "Galatians 6:11-18",
+      "Matthew 17:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-14": {
+    "readings": [
+      "Psalm 93",
+      "Numbers 6:22-27",
+      "Acts 13:1-12",
+      "Luke 12:41-48"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-15": {
+    "readings": [
+      "Psalm 80",
+      "Numbers 10:29-36",
+      "Romans 1:1-15",
+      "Matthew 17:14-21"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-16": {
+    "readings": [
+      "Psalm 78:40-72",
+      "Numbers 11:1-23",
+      "Romans 1:16-25",
+      "Matthew 17:22-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-17": {
+    "readings": [
+      "Psalm 119:97-120",
+      "Numbers 11:24-35",
+      "Romans 1:28-2:11",
+      "Matthew 18:1-9"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-18": {
+    "readings": [
+      "Psalm 86",
+      "Numbers 12:1-16",
+      "Romans 2:12-24",
+      "Matthew 18:10-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-19": {
+    "readings": [
+      "Psalm 88",
+      "Numbers 13:1-3, 21-30",
+      "Romans 2:25-3:8",
+      "Matthew 18:21-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-20": {
+    "readings": [
+      "Psalm 87",
+      "Numbers 13:31-14:25",
+      "Romans 3:9-20",
+      "Matthew 19:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-21": {
+    "readings": [
+      "Psalm 19",
+      "Numbers 14:26-45",
+      "Acts 15:1-12",
+      "Luke 12:49-56"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-22": {
+    "readings": [
+      "Psalm 89:1-18",
+      "Numbers 16:1-19",
+      "Romans 3:21-31",
+      "Matthew 19:13-22"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-23": {
+    "readings": [
+      "Psalm 100",
+      "Numbers 16:20-35",
+      "Romans 4:1-12",
+      "Matthew 19:23-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-24": {
+    "readings": [
+      "Psalm 119:121-144",
+      "Numbers 16:36-50",
+      "Romans 4:13-25",
+      "Matthew 20:1-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-25": {
+    "readings": [
+      "Psalm 105:1-22",
+      "Numbers 17:1-11",
+      "Romans 5:1-11",
+      "Matthew 20:17-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-26": {
+    "readings": [
+      "Psalm 102",
+      "Numbers 20:1-13",
+      "Romans 5:12-21",
+      "Matthew 20:29-34"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-27": {
+    "readings": [
+      "Psalm 3",
+      "Numbers 20:14-29",
+      "Romans 6:1-11",
+      "Matthew 21:1-11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-28": {
+    "readings": [
+      "Psalm 145",
+      "Numbers 21:4-9",
+      "Acts 17:12-34",
+      "Luke 13:10-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-29": {
+    "readings": [
+      "Psalm 106:19-48",
+      "Numbers 22:1-20",
+      "Romans 6:12-23",
+      "Matthew 21:12-22"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-06-30": {
+    "readings": [
+      "Psalm 121",
+      "Numbers 22:21-38",
+      "Romans 7:1-12",
+      "Matthew 21:23-32"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-01": {
+    "readings": [
+      "Psalm 128",
+      "Numbers 22:41-23:12",
+      "Romans 7:13-25",
+      "Matthew 21:33-46"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-02": {
+    "readings": [
+      "Psalm 132",
+      "Numbers 23:13-26",
+      "Romans 8:1-11",
+      "Matthew 22:1-14"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-03": {
+    "readings": [
+      "Psalm 142",
+      "Numbers 24:1-14",
+      "Romans 8:12-17",
+      "Matthew 22:15-22"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-04": {
+    "readings": [
+      "Psalm 144",
+      "Numbers 24:15-25",
+      "Romans 8:18-25",
+      "Matthew 22:23-40"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-05": {
+    "readings": [
+      "Psalm 111",
+      "Numbers 27:12-23",
+      "Acts 19:11-20",
+      "Mark 1:14-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-06": {
+    "readings": [
+      "Psalm 3",
+      "Numbers 32:1-6, 16-27",
+      "Romans 8:26-30",
+      "Matthew 23:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-07": {
+    "readings": [
+      "Psalm 10",
+      "Numbers 35:1-15, 30-34",
+      "Romans 8:31-39",
+      "Matthew 23:13-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-08": {
+    "readings": [
+      "Psalm 13",
+      "Deuteronomy 1:1-18",
+      "Romans 9:1-18",
+      "Matthew 23:27-39"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-09": {
+    "readings": [
+      "Psalm 18:1-20",
+      "Deuteronomy 3:18-28",
+      "Romans 9:19-33",
+      "Matthew 24:1-14"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-10": {
+    "readings": [
+      "Psalm 22",
+      "Deuteronomy 31:7-32:4",
+      "Romans 10:1-13",
+      "Matthew 24:15-31"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-11": {
+    "readings": [
+      "Psalm 110",
+      "Deuteronomy 34:1-12",
+      "Romans 10:14-21",
+      "Matthew 24:32-51"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-07-12": {
+    "readings": [
+      "Psalm 115",
+      "Joshua 1:1-18",
+      "Acts 21:3-15",
+      "Mark 1:21-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-13": {
+    "readings": [
+      "Psalm 9",
+      "Joshua 2:1-14",
+      "Romans 11:1-12",
+      "Matthew 25:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-14": {
+    "readings": [
+      "Psalm 26",
+      "Joshua 2:15-24",
+      "Romans 11:13-24",
+      "Matthew 25:14-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-15": {
+    "readings": [
+      "Psalm 38",
+      "Joshua 3:1-13",
+      "Romans 11:25-36",
+      "Matthew 25:31-46"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-16": {
+    "readings": [
+      "Psalm 37:1-18",
+      "Joshua 3:14-4:7",
+      "Romans 12:1-8",
+      "Matthew 26:1-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-17": {
+    "readings": [
+      "Psalm 31",
+      "Joshua 4:19-5:1, 10-15",
+      "Romans 12:9-21",
+      "Matthew 26:17-25"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-18": {
+    "readings": [
+      "Psalm 30",
+      "Joshua 6:1-14",
+      "Romans 13:1-7",
+      "Matthew 26:26-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-19": {
+    "readings": [
+      "Psalm 98",
+      "Joshua 6:15-27",
+      "Acts 22:30-23:11",
+      "Mark 2:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-20": {
+    "readings": [
+      "Psalm 52",
+      "Joshua 7:1-13",
+      "Romans 13:8-14",
+      "Matthew 26:36-46"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-21": {
+    "readings": [
+      "Psalm 47",
+      "Joshua 8:1-22",
+      "Romans 14:1-12",
+      "Matthew 26:47-56"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-22": {
+    "readings": [
+      "Psalm 49",
+      "Joshua 8:30-35",
+      "Romans 14:13-23",
+      "Matthew 26:57-68"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-23": {
+    "readings": [
+      "Psalm 67",
+      "Joshua 9:3-21",
+      "Romans 15:1-13",
+      "Matthew 26:69-75"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-24": {
+    "readings": [
+      "Psalm 54",
+      "Joshua 9:22-10:15",
+      "Romans 15:14-24",
+      "Matthew 27:1-10"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-25": {
+    "readings": [
+      "Psalm 138",
+      "Joshua 23:1-16",
+      "Romans 15:25-33",
+      "Matthew 27:11-23"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-26": {
+    "readings": [
+      "Psalm 29",
+      "Joshua 24:1-15",
+      "Acts 28:23-31",
+      "Mark 2:23-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-27": {
+    "readings": [
+      "Psalm 56",
+      "Joshua 24:16-33",
+      "Romans 16:1-16",
+      "Matthew 27:24-31"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-28": {
+    "readings": [
+      "Psalm 68",
+      "Judges 2:1-5, 11-23",
+      "Romans 16:17-27",
+      "Matthew 27:32-44"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-29": {
+    "readings": [
+      "Psalm 119:73-96",
+      "Judges 3:12-30",
+      "Acts 1:1-14",
+      "Matthew 27:45-54"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-30": {
+    "readings": [
+      "Psalm 74",
+      "Judges 4:4-23",
+      "Acts 1:15-26",
+      "Matthew 27:55-66"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-07-31": {
+    "readings": [
+      "Psalm 73",
+      "Judges 5:1-18",
+      "Acts 2:1-21",
+      "Matthew 28:1-10"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-08-01": {
+    "readings": [
+      "Psalm 76",
+      "Judges 5:19-31",
+      "Acts 2:22-36",
+      "Matthew 28:11-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-02": {
+    "readings": [
+      "Psalm 96",
+      "Judges 6:1-24",
+      "2 Corinthians 9:6-15",
+      "Mark 3:20-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-03": {
+    "readings": [
+      "Psalm 77",
+      "Judges 6:25-40",
+      "Acts 2:37-47",
+      "John 1:1-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-04": {
+    "readings": [
+      "Psalm 78:1-39",
+      "Judges 7:1-18",
+      "Acts 3:1-11",
+      "John 1:19-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-05": {
+    "readings": [
+      "Psalm 81",
+      "Judges 7:19-8:12",
+      "Acts 3:12-26",
+      "John 1:29-51"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-06": {
+    "readings": [
+      "Psalm 83",
+      "Judges 8:22-35",
+      "Acts 4:1-12",
+      "Matthew 17:1-8"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-08-07": {
+    "readings": [
+      "Psalm 91",
+      "Judges 9:1-21",
+      "Acts 4:13-31",
+      "John 2:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-08": {
+    "readings": [
+      "Psalm 90",
+      "Judges 9:22-25, 50-57",
+      "Acts 4:32-5:11",
+      "John 2:13-25"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-09": {
+    "readings": [
+      "Psalm 46",
+      "Judges 11:1-11, 29-40",
+      "2 Cor. 11:21b-31",
+      "Mark 4:35-41"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-10": {
+    "readings": [
+      "Psalm 89:19-52",
+      "Judges 12:1-7",
+      "Acts 5:12-26",
+      "John 3:1-21"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-11": {
+    "readings": [
+      "Psalm 94",
+      "Judges 13:1-14",
+      "Acts 5:27-42",
+      "John 3:22-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-12": {
+    "readings": [
+      "Psalm 101",
+      "Judges 13:15-24",
+      "Acts 6:1-15",
+      "John 4:1-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-13": {
+    "readings": [
+      "Psalm 105:23-45",
+      "Judges 14:1-19",
+      "Acts 6:15-7:16",
+      "John 4:27-42"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-14": {
+    "readings": [
+      "Psalm 107:1-32",
+      "Judges 14:20-15:20",
+      "Acts 7:17-29",
+      "John 4:43-54"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-15": {
+    "readings": [
+      "Psalm 107:33-43",
+      "Judges 16:1-14",
+      "Acts 7:30-43",
+      "John 5:1-18"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-08-16": {
+    "readings": [
+      "Psalm 118",
+      "Judges 16:15-31",
+      "2 Cor. 13:1-11",
+      "Mark 5:25-34"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-17": {
+    "readings": [
+      "Psalm 106:1-18",
+      "Judges 17:1-13",
+      "Acts 7:44-8:1a",
+      "John 5:19-29"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-18": {
+    "readings": [
+      "Psalm 122",
+      "Judges 18:1-15",
+      "Acts 8:1-13",
+      "John 5:30-47"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-19": {
+    "readings": [
+      "Psalm 129",
+      "Judges 18:16-31",
+      "Acts 8:14-25",
+      "John 6:1-15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-20": {
+    "readings": [
+      "Psalm 133",
+      "Job 1:1-22",
+      "Acts 8:26-40",
+      "John 6:16-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-21": {
+    "readings": [
+      "Psalm 141",
+      "Job 2:1-13",
+      "Acts 9:1-9",
+      "John 6:28-40"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-22": {
+    "readings": [
+      "Psalm 104",
+      "Job 3:1-26",
+      "Acts 9:10-19a",
+      "John 6:41-51"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-23": {
+    "readings": [
+      "Psalm 112",
+      "Job 4:1-21",
+      "Revelation 4:1-11",
+      "Mark 6:1-6a"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-24": {
+    "readings": [
+      "Psalm 4",
+      "Job 5:1-27",
+      "Acts 9:19b-31",
+      "John 6:52-59"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-25": {
+    "readings": [
+      "Psalm 11",
+      "Job 6:1-30",
+      "Acts 9:32-43",
+      "John 6:60-71"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-26": {
+    "readings": [
+      "Psalm 14",
+      "Job 7:1-10",
+      "Acts 10:1-16",
+      "John 7:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-27": {
+    "readings": [
+      "Psalm 18:21-50",
+      "Job 7:11-21",
+      "Acts 10:17-33",
+      "John 7:14-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-28": {
+    "readings": [
+      "Psalm 16",
+      "Job 9:1-15, 32-35",
+      "Acts 10:34-48",
+      "John 7:37-52"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-08-29": {
+    "readings": [
+      "Psalm 116",
+      "Job 10:1-9, 16-22",
+      "Acts 11:1-18",
+      "John 8:12-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-30": {
+    "readings": [
+      "Psalm 148",
+      "Job 11:1-9, 13-20",
+      "Revelation 5:1-14",
+      "Matthew 5:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-08-31": {
+    "readings": [
+      "Psalm 15",
+      "Job 12:1-6, 13-25",
+      "Acts 11:19-30",
+      "John 8:21-32"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-01": {
+    "readings": [
+      "Psalm 28",
+      "Job 13:3-17, 21-27",
+      "Acts 12:1-17",
+      "John 8:33-47"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-02": {
+    "readings": [
+      "Psalm 119:25-48",
+      "Job 14:1-22",
+      "Acts 12:18-25",
+      "John 8:48-59"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-03": {
+    "readings": [
+      "Psalm 37:19-40",
+      "Job 16:16-17:1-16",
+      "Acts 13:1-12",
+      "John 9:1-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-04": {
+    "readings": [
+      "Psalm 35",
+      "Job 19:1-7, 14-27",
+      "Acts 13:13-25",
+      "John 9:18-41"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-05": {
+    "readings": [
+      "Psalm 32",
+      "Job 22:1-4, 21-23:7",
+      "Acts 13:26-43",
+      "John 10:1-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-06": {
+    "readings": [
+      "Psalm 103",
+      "Job 25:1-6, 27:1-6",
+      "Revelation 14:1-7,13",
+      "Matthew 5:13-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-07": {
+    "readings": [
+      "Psalm 44",
+      "Job 32:1-33:1, 19-28",
+      "Acts 13:44-52",
+      "John 10:19-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-08": {
+    "readings": [
+      "Psalm 48",
+      "Job 29:1-20",
+      "Acts 14:1-18",
+      "John 10:31-42"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-09": {
+    "readings": [
+      "Psalm 53",
+      "Job 30:1-2, 16-31",
+      "Acts 14:19-28",
+      "John 11:1-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-10": {
+    "readings": [
+      "Psalm 50",
+      "Job 31:1-23",
+      "Acts 15:1-11",
+      "John 11:17-29"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-11": {
+    "readings": [
+      "Psalm 51",
+      "Job 31:24-40",
+      "Acts 15:12-21",
+      "John 11:30-44"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-12": {
+    "readings": [
+      "Psalm 139",
+      "Job 38:1-17",
+      "Acts 15:22-35",
+      "John 11:45-54"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-13": {
+    "readings": [
+      "Psalm 8",
+      "Job 38:18-41",
+      "Revelation 18:1-8",
+      "Matthew 5:21-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-14": {
+    "readings": [
+      "Psalm 57",
+      "Job 40:1-24",
+      "Acts 15:36-16:5",
+      "John 11:55-12:8"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-15": {
+    "readings": [
+      "Psalm 61",
+      "Job 41:1-11",
+      "Acts 16:6-15",
+      "John 12:9-19"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-16": {
+    "readings": [
+      "Psalm 72",
+      "Job 42:1-17",
+      "Acts 16:16-24",
+      "John 12:20-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-17": {
+    "readings": [
+      "Psalm 70",
+      "Job 28:1-28",
+      "Acts 16:25-40",
+      "John 12:27-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-18": {
+    "readings": [
+      "Psalm 69",
+      "Esther 1:1-4, 10-19",
+      "Acts 17:1-15",
+      "John 12:37-43"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-19": {
+    "readings": [
+      "Psalm 23",
+      "Esther 2:5-8, 15-23",
+      "Acts 17:16-34",
+      "John 12:44-50"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-20": {
+    "readings": [
+      "Psalm 34",
+      "Esther 3:1-4:3",
+      "James 1:19-27",
+      "Matthew 6:1-6, 16-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-21": {
+    "readings": [
+      "Psalm 79",
+      "Esther 4:4-17",
+      "Acts 18:1-11",
+      "Luke 3:1-14"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-22": {
+    "readings": [
+      "Psalm 78:40-72",
+      "Esther 5:1-14",
+      "Acts 18:12-28",
+      "Luke 3:15-22"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-23": {
+    "readings": [
+      "Psalm 119:97-120",
+      "Esther 6:1-14",
+      "Acts 19:1-10",
+      "Luke 4:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-24": {
+    "readings": [
+      "Psalm 83",
+      "Esther 7:1-10",
+      "Acts 19:11-20",
+      "Luke 4:14-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-25": {
+    "readings": [
+      "Psalm 92",
+      "Esther 8:1-8, 15-17",
+      "Acts 19:21-41",
+      "Luke 4:31-37"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-26": {
+    "readings": [
+      "Psalm 136",
+      "Hosea 1:1-2:1",
+      "Acts 20:1-16",
+      "Luke 4:38-44"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-27": {
+    "readings": [
+      "Psalm 66",
+      "Hosea 2:2-14",
+      "James 3:1-13",
+      "Matthew 13:44-52"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-28": {
+    "readings": [
+      "Psalm 89:1-18",
+      "Hosea 2:14-23",
+      "Acts 20:17-38",
+      "Luke 5:1-11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-29": {
+    "readings": [
+      "Psalm 95",
+      "Hosea 4:1-10",
+      "Acts 21:1-14",
+      "Luke 5:12-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-09-30": {
+    "readings": [
+      "Psalm 109",
+      "Hosea 4:11-19",
+      "Acts 21:15-26",
+      "Luke 5:27-39"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-01": {
+    "readings": [
+      "Psalm 105:1-22",
+      "Hosea 5:8-6:6",
+      "Acts 21:27-36",
+      "Luke 6:1-11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-02": {
+    "readings": [
+      "Psalm 102",
+      "Hosea 10:1-15",
+      "Acts 21:37-22:16",
+      "Luke 6:12-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-03": {
+    "readings": [
+      "Psalm 108",
+      "Hosea 11:1-9",
+      "Acts 22:17-29",
+      "Luke 6:27-38"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-04": {
+    "readings": [
+      "Psalm 145",
+      "Hosea 13:4-14",
+      "1 Cor. 2:6-16",
+      "Matthew 14:1-12"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-10-05": {
+    "readings": [
+      "Psalm 106:19-48",
+      "Hosea 14:1-9",
+      "Acts 22:30-23:11",
+      "Luke 6:39-49"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-06": {
+    "readings": [
+      "Psalm 123",
+      "Micah 1:1-9",
+      "Acts 23:12-22",
+      "Luke 7:1-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-07": {
+    "readings": [
+      "Psalm 130",
+      "Micah 2:1-13",
+      "Acts 23:23-35",
+      "Luke 7:18-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-08": {
+    "readings": [
+      "Psalm 134",
+      "Micah 3:1-8",
+      "Acts 24:1-23",
+      "Luke 7:36-50"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-09": {
+    "readings": [
+      "Psalm 143",
+      "Micah 3:9-4:5",
+      "Acts 24:24-25:12",
+      "Luke 8:1-15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-10": {
+    "readings": [
+      "Psalm 137",
+      "Micah 5:1-4, 10-15",
+      "Acts 25:13-27",
+      "Luke 8:16-25"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-11": {
+    "readings": [
+      "Psalm 113",
+      "Micah 6:1-8",
+      "1 Cor. 4:9-16",
+      "Matthew 15:21-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-12": {
+    "readings": [
+      "Psalm 7",
+      "Micah 7:1-7",
+      "Acts 26:1-23",
+      "Luke 8:26-39"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-13": {
+    "readings": [
+      "Psalm 5",
+      "Jonah 1:1-17a",
+      "Acts 26:24-27:8",
+      "Luke 8:40-56"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-14": {
+    "readings": [
+      "Psalm 119:1-24",
+      "Jonah 1:17-2:10",
+      "Acts 27:9-26",
+      "Luke 9:1-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-15": {
+    "readings": [
+      "Psalm 18:1-20",
+      "Jonah 3:1-4:11",
+      "Acts 27:27-44",
+      "Luke 9:18-27"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-10-16": {
+    "readings": [
+      "Psalm 17",
+      "Psalm 7",
+      "Acts 28:1-16",
+      "Luke 9:28-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-17": {
+    "readings": [
+      "Psalm 117",
+      "Psalm 21",
+      "Acts 28:17-31",
+      "Luke 9:37-50"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-18": {
+    "readings": [
+      "Psalm 148",
+      "Psalm 149",
+      "1 Cor. 10:1-13",
+      "Matthew 16:13-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-19": {
+    "readings": [
+      "Psalm 25",
+      "Psalm 9",
+      "Revelation 7:1-8",
+      "Luke 9:51-62"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-20": {
+    "readings": [
+      "Psalm 36",
+      "Psalm 28",
+      "Revelation 7:9-17",
+      "Luke 10:1-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-21": {
+    "readings": [
+      "Psalm 38",
+      "Psalm 119:25-48",
+      "Revelation 8:1-13",
+      "Luke 10:17-24"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-22": {
+    "readings": [
+      "Psalm 37:1-18",
+      "Psalm 37:19-42",
+      "Revelation 9:1-12",
+      "Luke 10:25-37"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-23": {
+    "readings": [
+      "Psalm 31",
+      "Psalm 35",
+      "Revelation 9:13-21",
+      "Luke 10:38-42"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-24": {
+    "readings": [
+      "Psalm 42",
+      "Psalm 32",
+      "Revelation 10:1-11",
+      "Luke 11:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-25": {
+    "readings": [
+      "Psalm 63",
+      "Psalm 98",
+      "1 Cor. 10:15-24",
+      "Matthew 18:15-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-26": {
+    "readings": [
+      "Psalm 41",
+      "Psalm 52",
+      "Revelation 11:1-14",
+      "Luke 11:14-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-27": {
+    "readings": [
+      "Psalm 45",
+      "Psalm 47",
+      "Revelation 11:15-19",
+      "Luke 11:27-36"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-28": {
+    "readings": [
+      "Psalm 119:49-72",
+      "Psalm 49",
+      "Revelation 12:1-6",
+      "Luke 11:37-52"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-29": {
+    "readings": [
+      "Psalm 60",
+      "Psalm 59",
+      "Revelation 12:7-17",
+      "Luke 11:53-12:12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-30": {
+    "readings": [
+      "Psalm 40",
+      "Psalm 54",
+      "Revelation 13:1-10",
+      "Luke 12:13-31"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-10-31": {
+    "readings": [
+      "Psalm 55",
+      "Psalm 138",
+      "Revelation 13:11-18",
+      "Luke 12:32-48"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-01": {
+    "readings": [
+      "Psalm 84",
+      "Psalm 29",
+      "1 Cor. 12:27-13:13",
+      "Matthew 18:21-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-02": {
+    "readings": [
+      "Psalm 58",
+      "Psalm 57",
+      "Revelation 14:1-13",
+      "Luke 12:49-59"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-03": {
+    "readings": [
+      "Psalm 62",
+      "Psalm 63",
+      "Revelation 14:14-15:8",
+      "Luke 13:1-9"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-04": {
+    "readings": [
+      "Psalm 119:73-96",
+      "Psalm 120",
+      "Revelation 16:1-11",
+      "Luke 13:10-17"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-05": {
+    "readings": [
+      "Psalm 82",
+      "Psalm 71",
+      "Revelation 16:12-21",
+      "Luke 13:18-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-06": {
+    "readings": [
+      "Psalm 69",
+      "Psalm 73",
+      "Revelation 17:1-18",
+      "Luke 13:31-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-07": {
+    "readings": [
+      "Psalm 75",
+      "Psalm 76",
+      "Revelation 18:1-14",
+      "Luke 14:1-11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-08": {
+    "readings": [
+      "Psalm 93",
+      "Psalm 96",
+      "1 Cor. 14:1-12",
+      "Matthew 20:1-16"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-09": {
+    "readings": [
+      "Psalm 80",
+      "Joel 1:1-13",
+      "Revelation 18:15-24",
+      "Luke 14:12-24"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-10": {
+    "readings": [
+      "Psalm 78:1-39",
+      "Joel 1:15-2:11",
+      "Revelation 19:1-10",
+      "Luke 14:25-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-11": {
+    "readings": [
+      "Psalm 119:97-120",
+      "Joel 2:12-19",
+      "Revelation 19:11-21",
+      "Luke 15:1-10"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-12": {
+    "readings": [
+      "Psalm 23",
+      "Joel 2:21-27",
+      "James 1:1-15",
+      "Luke 15:11-32"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-13": {
+    "readings": [
+      "Psalm 88",
+      "Joel 2:28-3:8",
+      "James 1:16-27",
+      "Luke 16:1-9"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-14": {
+    "readings": [
+      "Psalm 87",
+      "Joel 3:9-17",
+      "James 2:1-13",
+      "Luke 16:10-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-15": {
+    "readings": [
+      "Psalm 67",
+      "Habakkuk 1:1-2:1",
+      "Philippians 3:13-4:1",
+      "Matthew 23:13-24"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-16": {
+    "readings": [
+      "Psalm 89:19-52",
+      "Habakkuk 2:1-20",
+      "James 2:14-26",
+      "Luke 16:19-31"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-17": {
+    "readings": [
+      "Psalm 97",
+      "Habakkuk 3:1-18",
+      "James 3:1-12",
+      "Luke 17:1-10"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-18": {
+    "readings": [
+      "Psalm 119:121-144",
+      "Malachi 1:1-14",
+      "James 3:13-4:12",
+      "Luke 17:11-19"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-19": {
+    "readings": [
+      "Psalm 105:23-45",
+      "Malachi 2:1-16",
+      "James 4:13-5:6",
+      "Luke 17:20-37"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-20": {
+    "readings": [
+      "Psalm 107:1-21",
+      "Malachi 3:1-12",
+      "James 5:7-12",
+      "Luke 18:1-8"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-21": {
+    "readings": [
+      "Psalm 33",
+      "Malachi 3:13-4:6",
+      "James 5:13-20",
+      "Luke 18:9-14"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-22": {
+    "readings": [
+      "Psalm 118",
+      "Zechariah 9:9-16",
+      "1 Peter 3:13-22",
+      "Matthew 21:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-23": {
+    "readings": [
+      "Psalm 106:1-18",
+      "Zechariah 10:1-12",
+      "Galatians 6:1-10",
+      "Luke 18:15-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-24": {
+    "readings": [
+      "Psalm 124",
+      "Zechariah 11:4-17",
+      "1 Cor. 3:10-23",
+      "Luke 18:31-43"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-25": {
+    "readings": [
+      "Psalm 119:145-176",
+      "Zechariah 12:1-10",
+      "Ephesians 1:3-14",
+      "Luke 19:1-10"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-26": {
+    "readings": [
+      "Psalm 135",
+      "Zechariah 13:1-9",
+      "Ephesians 1:15-23",
+      "Luke 19:11-27"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-27": {
+    "readings": [
+      "Psalm 140",
+      "Zechariah 14:1-11",
+      "Romans 15:7-13",
+      "Luke 19:28-40"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-28": {
+    "readings": [
+      "Psalm 144",
+      "Zechariah 14:12-21",
+      "Philippians 2:1-11",
+      "Luke 19:41-48"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-29": {
+    "readings": [
+      "Psalm 146",
+      "Isaiah 1:1-9",
+      "2 Peter 3:1-10",
+      "Matthew 25:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-11-30": {
+    "readings": [
+      "Psalm 1",
+      "Isaiah 1:10-20",
+      "1 Thes. 1:1-10",
+      "Luke 20:1-8"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-01": {
+    "readings": [
+      "Psalm 6",
+      "Isaiah 1:21-31",
+      "1 Thes. 2:1-12",
+      "Luke 20:9-18"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-02": {
+    "readings": [
+      "Psalm 12",
+      "Isaiah 2:1-11",
+      "1 Thes. 2:13-20",
+      "Luke 20:19-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-03": {
+    "readings": [
+      "Psalm 18:21-50",
+      "Isaiah 2:12-22",
+      "1 Thes. 3:1-13",
+      "Luke 20:27-40"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-04": {
+    "readings": [
+      "Psalm 22",
+      "Isaiah 3:8-15",
+      "1 Thes. 4:1-12",
+      "Luke 20:41-21:4"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-05": {
+    "readings": [
+      "Psalm 20",
+      "Isaiah 4:2-6",
+      "1 Thes. 4:13-18",
+      "Luke 21:5-19"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-06": {
+    "readings": [
+      "Psalm 150",
+      "Isaiah 5:1-7",
+      "2 Peter 3:11-18",
+      "Luke 7:28-35"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-07": {
+    "readings": [
+      "Psalm 9",
+      "Isaiah 5:8-12, 18-23",
+      "1 Thes. 5:1-11",
+      "Luke 21:20-28"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-08": {
+    "readings": [
+      "Psalm 39",
+      "Isaiah 5:13-17, 24-25",
+      "1 Thes. 5:12-28",
+      "Luke 21:29-38"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-09": {
+    "readings": [
+      "Psalm 119:25-48",
+      "Isaiah 6:1-13",
+      "2 Thes. 1:1-12",
+      "John 7:53-8:11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-10": {
+    "readings": [
+      "Psalm 37:19-42",
+      "Isaiah 7:1-9",
+      "2 Thes. 2:1-12",
+      "Luke 22:1-13"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-11": {
+    "readings": [
+      "Psalm 35",
+      "Isaiah 7:10-25",
+      "2 Thes. 2:13-3:5",
+      "Luke 22:14-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-12": {
+    "readings": [
+      "Psalm 43",
+      "Isaiah 8:1-15",
+      "2 Thes. 3:6-18",
+      "Luke 22:31-38"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-13": {
+    "readings": [
+      "Psalm 98",
+      "Isaiah 13:6-13",
+      "Hebrews 12:18-29",
+      "John 3:22-30"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-14": {
+    "readings": [
+      "Psalm 52",
+      "Isaiah 8:16-9:1",
+      "2 Peter 1:1-11",
+      "Luke 22:39-53"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-15": {
+    "readings": [
+      "Psalm 47",
+      "Isaiah 9:1-7",
+      "2 Peter 1:12-21",
+      "Luke 22:54-69"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-16": {
+    "readings": [
+      "Psalm 49",
+      "Isaiah 9:8-17",
+      "2 Peter 2:1-11",
+      "Mark 1:1-8"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-17": {
+    "readings": [
+      "Psalm 33",
+      "Isaiah 9:18-10:4",
+      "2 Peter 2:12-16",
+      "Matthew 3:1-12"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-18": {
+    "readings": [
+      "Psalm 54",
+      "Isaiah 10:5-19",
+      "2 Peter 2:17-22",
+      "Matthew 11:2-15"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-19": {
+    "readings": [
+      "Psalm 138",
+      "Isaiah 10:20-27",
+      "Jude 17-25",
+      "Luke 3:19-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-20": {
+    "readings": [
+      "Psalm 24",
+      "Isaiah 42:1-12",
+      "Ephesians 6:10-20",
+      "John 3:16-21"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-21": {
+    "readings": [
+      "Psalm 61",
+      "Isaiah 11:1-9",
+      "Revelation 20:1-10",
+      "John 5:30-47"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-22": {
+    "readings": [
+      "Psalm 66",
+      "Isaiah 11:10-16",
+      "Revelation 20:11-21:8",
+      "Luke 1:5-25"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-23": {
+    "readings": [
+      "Psalm 113",
+      "Isaiah 28:9-22",
+      "Revelation 21:9-21",
+      "Luke 1:67-80"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-24": {
+    "readings": [
+      "Psalm 45",
+      "Isaiah 35:1-10",
+      "Revelation 22:12-17, 21",
+      "Luke 1:26-38"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-25": {
+    "readings": [
+      "Psalm 2",
+      "Zechariah 2:10-13",
+      "1 John 4:7-16",
+      "Luke 2:1-14"
+    ],
+    "feast": true,
+    "fast": false
+  },
+  "2026-12-26": {
+    "readings": [
+      "Psalm 96",
+      "Isaiah 9:2-7",
+      "Titus 2:11-14",
+      "John 3:31-26"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-27": {
+    "readings": [
+      "Psalm 97",
+      "Isaiah 62:6-7, 10-12",
+      "Titus 3:4-7",
+      "Luke 2:15-20"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-28": {
+    "readings": [
+      "Psalm 98",
+      "Isaiah 52:7-10",
+      "Hebrews 1:1-12",
+      "John 1:1-14"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-29": {
+    "readings": [
+      "Psalm 18:1-20",
+      "Isaiah 12:1-6",
+      "Revelation 1:1-8",
+      "John 7:37-52"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-30": {
+    "readings": [
+      "Psalm 20",
+      "Isaiah 25:1-9",
+      "Revelation 1:9-20",
+      "John 7:53-8:11"
+    ],
+    "feast": false,
+    "fast": false
+  },
+  "2026-12-31": {
+    "readings": [
+      "Psalm 46",
+      "Isaiah 26:1-9",
+      "2 Cor. 5:16-6:2",
+      "John 8:12-19"
+    ],
+    "feast": false,
+    "fast": false
+  }
+}

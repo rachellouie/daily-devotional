@@ -18,3 +18,9 @@
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Bridgetown BREAD PDF and generated intermediates — copyrighted source material.
+# bread-2026.json (scripture references only) IS committed.
+data/*.pdf
+data/bread-raw.txt
+data/bread-layout.txt
