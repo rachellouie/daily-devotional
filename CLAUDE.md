@@ -23,9 +23,9 @@ npm run lint        # next lint
 npm run build
 ```
 
-> **No test runner is installed yet.** The first feature built with `/tracer`
-> should add **Vitest** (lightest fit for Next 14 + TS strict) and a `test`
-> script. After that, the verification gate is `npm run typecheck && npm test`.
+> **Test runner: Vitest.** Gate: `npm run typecheck && npm test`. Tests live in
+> `__tests__/`; `test/mocks/server-only.ts` is the no-op mock for the
+> `server-only` package (which throws in plain Node context).
 
 ## How a request flows
 
