@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "//": "Phase 1 prototype: a daily Daily Office (BCP) devotional reader. Requires Node >= 18.17 for Next.js 14.",
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
