@@ -52,3 +52,76 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Scripture HTML from API.Bible (content-type=html), styled under a single
+ * `.scripture` scope so the vendor's class names (.v / .c / .cl / .q1 / .q2 / .p)
+ * can never leak into the rest of the app. Tailwind can't reach these injected
+ * classes, so this is deliberately hand-written. See ReadingCard + the security
+ * note in lib/scripture.ts for how/why this HTML is injected. */
+@layer components {
+  .scripture p {
+    margin: 0;
+  }
+
+  /* Dark-mode reading comfort: full-strength --foreground (a near-white warm
+     tone) makes the serif body "bloom"/halate on the near-black background, so
+     the scripture text is dropped to a slightly softer warm grey in dark only.
+     UI chrome keeps --foreground; this is scoped to the reading body. */
+  .dark .scripture {
+    color: hsl(40 22% 82%);
+  }
+  /* Poetry indentation comes free from the API's q1/q2 paragraph classes;
+     q2 is the deeper-indented continuation line. */
+  .scripture .q1 {
+    padding-left: 1rem;
+  }
+  .scripture .q2 {
+    padding-left: 2rem;
+  }
+
+  /* Verse numbers are HIDDEN BY DEFAULT (spec AC 5) for a clean first reading,
+     and revealed only when the reader opts in via the toggle, which flips
+     `.show-verse-numbers` on the <main> container. When shown they're
+     superscript + muted ("superscript, muted" decision) so they stay out of the
+     way. Toggling is a pure CSS class flip — no re-fetch. */
+  .scripture .v {
+    display: none;
+  }
+  .show-verse-numbers .scripture .v {
+    display: inline;
+    font-size: 0.65em;
+    vertical-align: super;
+    line-height: 0;
+    margin-right: 0.15em;
+    color: hsl(var(--muted-foreground));
+  }
+
+  /* Redundant chapter label line the API emits ("Psalm 32") — always hidden;
+     the card title already names the passage. */
+  .scripture .cl {
+    display: none;
+  }
+
+  /* Chapter marker (h2.c) the API emits at a chapter boundary within a
+     cross-chapter span: render as a subtle centered "— 23 —" divider rather
+     than a big heading, so the chapter turnover reads as a quiet signal. */
+  .scripture h2.c {
+    margin: 1rem 0 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(var(--muted-foreground));
+  }
+  .scripture h2.c::before {
+    content: "— ";
+  }
+  .scripture h2.c::after {
+    content: " —";
+  }
+
+  /* ...but the LEADING chapter marker of a reading duplicates the card title,
+     so it's suppressed on the first text span only (`.scripture--lead`). */
+  .scripture--lead > h2.c:first-child {
+    display: none;
+  }
+}

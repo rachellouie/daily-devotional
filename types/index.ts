@@ -134,19 +134,39 @@ export interface LiturgicalDay {
 }
 
 /**
- * A single scripture reading AFTER we've fetched its text from ESV.
+ * One contiguous span of a reading, after fetch. A non-contiguous reference
+ * ("Lam. 3:1-9, 19-33") yields one segment per comma-separated span; a normal
+ * contiguous reference yields a single-element `segments` array.
+ */
+export interface ReadingSegment {
+  /**
+   * Human-readable reference for THIS span — ALWAYS populated. On a successful
+   * fetch it's API.Bible's canonical reference ("Lamentations 3:1-9"); on a
+   * failed fetch it's derived from the parsed passage ID, so the reader can
+   * still look the passage up manually.
+   */
+  reference: string;
+  /** Passage text for this span, or null if this span's fetch failed. */
+  text: string | null;
+}
+
+/**
+ * A single scripture reading AFTER we've fetched its text.
  * `role` lets the UI label it ("First Reading", "Gospel", "Psalm").
  */
 export interface Reading {
   /** Stable id for React keys + future bookmarking. */
   id: string;
   role: ReadingRole;
-  /** The canonical reference returned by ESV, e.g. "Ecclesiastes 2:1–15". */
+  /** The canonical reference for the reading as a whole, e.g. "Ecclesiastes 2:1–15". */
   reference: string;
   /** The original reference string from the lectionary (abbreviated). */
   rawReference: string;
-  /** Passage text from ESV, or null if it couldn't be fetched. */
-  text: string | null;
+  /**
+   * One entry per contiguous span. Contiguous readings have exactly one; a
+   * non-contiguous reference has one per appointed span, in order.
+   */
+  segments: ReadingSegment[];
   translation: Translation;
 }
 
@@ -193,7 +213,7 @@ export interface ApiBiblePassageResponse {
  * fields that only exist post-fetch. Using Omit keeps this in lockstep with
  * Reading automatically — add a field to Reading and this updates for free.
  */
-export type PendingReading = Omit<Reading, "text">;
+export type PendingReading = Omit<Reading, "segments">;
 
 /**
  * `Pick<T, K>` — the inverse: keep only some keys.
