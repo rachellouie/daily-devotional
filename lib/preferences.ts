@@ -20,6 +20,35 @@ export function parseVerseNumbersPref(raw: string | undefined): boolean {
   return raw === "true";
 }
 
+/** Cookie name for the client's IANA timezone, written client-side by TimezoneSync. */
+export const TZ_COOKIE = "tz";
+
+/**
+ * Fallback zone when the `tz` cookie is absent or invalid. The reader's own zone
+ * (NYC) is the best first guess: on a first-ever visit — before TimezoneSync has
+ * written the cookie — the primary reader sees the correct day with no refresh,
+ * and any other visitor self-corrects on the one soft refresh TimezoneSync fires.
+ */
+export const DEFAULT_TIME_ZONE = "America/New_York";
+
+/**
+ * Validate a client-supplied IANA timezone before it reaches Intl. The cookie is
+ * user-controllable, so an unknown or garbage value must never throw the page:
+ * we probe it against Intl (which throws RangeError on an unrecognized zone) and
+ * fall back to DEFAULT_TIME_ZONE. The return value is guaranteed safe to hand to
+ * `Intl.DateTimeFormat({ timeZone })`.
+ */
+export function parseTimeZone(raw: string | undefined): string {
+  if (!raw) return DEFAULT_TIME_ZONE;
+  try {
+    // Constructing the formatter is enough to validate the zone; a bad one throws.
+    new Intl.DateTimeFormat("en-CA", { timeZone: raw });
+    return raw;
+  } catch {
+    return DEFAULT_TIME_ZONE;
+  }
+}
+
 /** Cookie name for the theme preference. Shared with the client + inline script. */
 export const THEME_COOKIE = "theme";
 

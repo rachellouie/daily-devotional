@@ -5,12 +5,15 @@ import { ReadingList } from "@/components/ReadingList";
 import { TranslationPicker } from "@/components/TranslationPicker";
 import { VerseNumberToggle } from "@/components/VerseNumberToggle";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { TimezoneSync } from "@/components/TimezoneSync";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import {
   VERSE_NUMBERS_COOKIE,
   parseVerseNumbersPref,
   THEME_COOKIE,
   parseThemePref,
+  TZ_COOKIE,
+  parseTimeZone,
 } from "@/lib/preferences";
 import type { Translation } from "@/types";
 
@@ -41,12 +44,15 @@ function formatDate(iso: string): string {
 // non-contiguous passages (gap markers) can be eyeballed without waiting for the
 // calendar to land on one. Gated to non-production so the LIVE site always reads
 // the real today; the override stays available in local dev.
-function resolveDate(searchParams: { date?: string }): string {
+function resolveDate(
+  searchParams: { date?: string },
+  timeZone: string,
+): string {
   const override =
     process.env.NODE_ENV !== "production" ? searchParams.date : undefined;
   return override && /^\d{4}-\d{2}-\d{2}$/.test(override)
     ? override
-    : getTodayIsoDate();
+    : getTodayIsoDate(timeZone);
 }
 
 export default async function HomePage({
@@ -63,15 +69,20 @@ export default async function HomePage({
   // Theme defaults to "system"; the inline <head> script (app/layout.tsx) owns
   // the pre-paint class, so this only seeds ThemeToggle's initial active segment.
   const themeMode = parseThemePref(cookies().get(THEME_COOKIE)?.value);
+  // The reader's IANA zone, written client-side by TimezoneSync. Drives the day
+  // boundary so the reading rolls at the reader's local midnight; falls back to
+  // NYC on a first visit before the cookie exists (parseTimeZone owns that).
+  const timeZone = parseTimeZone(cookies().get(TZ_COOKIE)?.value);
   const mainClass = `container max-w-2xl py-10${
     showVerseNumbers ? " show-verse-numbers" : ""
   }`;
-  const today = resolveDate(searchParams);
+  const today = resolveDate(searchParams, timeZone);
   const day = getReadingRefs(today);
 
   if (!day) {
     return (
       <main className={mainClass}>
+        <TimezoneSync serverTimeZone={timeZone} />
         <header className="flex flex-wrap items-start justify-between gap-4 border-b pb-6">
           <div>
             <p className="text-sm font-medium uppercase tracking-wide text-muted-foreground">
@@ -104,6 +115,7 @@ export default async function HomePage({
 
   return (
     <main className={mainClass}>
+      <TimezoneSync serverTimeZone={timeZone} />
       <header className="flex flex-wrap items-start justify-between gap-4 border-b pb-6">
         <div>
           <p className="text-sm font-medium uppercase tracking-wide text-muted-foreground">
