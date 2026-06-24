@@ -96,6 +96,15 @@
     color: hsl(var(--muted-foreground));
   }
 
+  /* Divine name: API.Bible wraps the Tetragrammaton/"name of deity" in
+     span.nd, with the text already cased as "Lord"/"God" (large initial,
+     lowercase remainder). font-variant: small-caps renders that as the
+     traditional "Lᴏʀᴅ" small-caps form wherever the OT marks it. Scoped to
+     .scripture so it only touches injected passage text. */
+  .scripture .nd {
+    font-variant: small-caps;
+  }
+
   /* Redundant chapter label line the API emits ("Psalm 32") — always hidden;
      the card title already names the passage. */
   .scripture .cl {

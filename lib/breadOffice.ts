@@ -30,6 +30,20 @@ export function getReadingRefs(isoDate: string): BreadDay | null {
   return { refs, feast: entry.feast, fast: entry.fast };
 }
 
-export function getTodayIsoDate(): string {
-  return new Date().toISOString().slice(0, 10);
+/**
+ * Today's date as `YYYY-MM-DD`, anchored to a given IANA timezone rather than the
+ * server's clock. The server runs in UTC (e.g. on Vercel), so formatting in the
+ * reader's zone is what makes the reading roll over at THEIR local midnight — not
+ * at UTC midnight, which on the US East Coast is ~8 PM the previous evening.
+ *
+ * `en-CA` is used purely because its date format is ISO `YYYY-MM-DD`. `now` is
+ * injectable so the zone boundary can be tested at a fixed instant.
+ */
+export function getTodayIsoDate(timeZone: string, now: Date = new Date()): string {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(now);
 }

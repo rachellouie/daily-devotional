@@ -3,6 +3,9 @@ import {
   parseVerseNumbersPref,
   parseThemePref,
   THEME_COOKIE,
+  parseTimeZone,
+  TZ_COOKIE,
+  DEFAULT_TIME_ZONE,
 } from "@/lib/preferences";
 
 // Slice 2 (verse-number toggle): verse numbers are HIDDEN BY DEFAULT (spec AC 5).
@@ -52,5 +55,31 @@ describe("parseThemePref", () => {
     expect(parseThemePref("")).toBe("system");
     expect(parseThemePref("DARK")).toBe("system");
     expect(parseThemePref("true")).toBe("system");
+  });
+});
+
+// The `tz` cookie is written client-side (TimezoneSync) and read server-side to
+// anchor the daily rollover to the reader's zone. The cookie is user-controllable,
+// so this parser is the trust boundary: a valid IANA zone passes through; anything
+// else falls back to NYC so a bad/injected value can never throw Intl on the server.
+describe("parseTimeZone", () => {
+  it("exports the cookie name 'tz'", () => {
+    expect(TZ_COOKIE).toBe("tz");
+  });
+
+  it("returns a valid IANA zone unchanged", () => {
+    expect(parseTimeZone("America/Los_Angeles")).toBe("America/Los_Angeles");
+    expect(parseTimeZone("Europe/London")).toBe("Europe/London");
+    expect(parseTimeZone("UTC")).toBe("UTC");
+  });
+
+  it("falls back to NYC when the cookie is missing", () => {
+    expect(parseTimeZone(undefined)).toBe(DEFAULT_TIME_ZONE);
+  });
+
+  it("falls back to NYC for an unknown or garbage value", () => {
+    expect(parseTimeZone("Not/AZone")).toBe(DEFAULT_TIME_ZONE);
+    expect(parseTimeZone("'; DROP TABLE")).toBe(DEFAULT_TIME_ZONE);
+    expect(parseTimeZone("")).toBe(DEFAULT_TIME_ZONE);
   });
 });
