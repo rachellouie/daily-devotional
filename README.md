@@ -1,72 +1,94 @@
-# Daily Devotional — Phase 1
+# Daily Devotional
 
-A daily **Daily Office (Book of Common Prayer)** devotional reader. It figures
-out where today falls in the church year, looks up the appointed Morning Prayer
-readings, fetches the full scripture text from the ESV API, and renders it.
+A daily scripture devotional reader. It follows the **Bridgetown Church BREAD
+2026** reading plan: it figures out today's date in the reader's own timezone,
+looks up the appointed readings, fetches the full text from
+[API.Bible](https://scripture.api.bible/), and renders them in your choice of
+translation — with light/dark mode, optional verse numbers, and feast/fast day
+markers.
 
 Built with **Next.js 14 (App Router)**, **TypeScript (strict)**, **Tailwind**,
-and **shadcn/ui** — as a study + portfolio project.
+and **shadcn/ui** — as a study + portfolio project (and the playground for
+spec-driven / TDD agentic-coding practice).
 
 ## Prerequisites
 
-> **Node ≥ 18.17 is required** (Next.js 14). This machine currently has Node
-> 16, so install a newer one first, e.g. `nvm install 20 && nvm use 20`.
+> **Node ≥ 18.17 is required** (Next.js 14). If this machine still defaults to
+> Node 16, install a newer one first: `nvm install 20 && nvm use 20`.
 
 ## Setup
 
 ```bash
 npm install
-cp .env.local.example .env.local      # then paste your free ESV API key
+cp .env.local.example .env.local      # then paste your free API.Bible key
 npm run dev                           # http://localhost:3000
 ```
 
-Get a free ESV key (personal/non-commercial) at <https://api.esv.org/>.
+Get a free **API.Bible** key (non-commercial Starter plan) at
+<https://scripture.api.bible/>. The example file also reserves a
+`BIBLEBRAIN_API_KEY` slot for audio, which isn't wired up yet — you can leave it
+blank.
 
-Useful scripts: `npm run typecheck` (tsc, no emit), `npm run build`, `npm run lint`.
+Useful scripts: `npm run typecheck` (tsc, no emit), `npm test` (Vitest),
+`npm run build`, `npm run lint`.
 
 ## How a request flows
 
 ```
 app/page.tsx  (async Server Component)
-   │  new Date()
+   │  today's date, in the reader's IANA timezone
    ▼
-lib/liturgicalCalendar.ts   date ─► { year, season, week, dayKey }   (pure math)
+lib/breadOffice.ts          ISO date ─► ReadingRef[]  (look up the BREAD plan in bundled JSON)
    ▼
-lib/dailyOffice.ts          look up office in bundled JSON ─► ReadingRef[]
+lib/scripture.ts            fetch passage text from API.Bible
+                            (server-only, holds the API key; parses non-contiguous refs into segments)
    ▼
-lib/esv.ts                  fetch passage text (server-only, holds API key)
-   ▼
-components/  DayHeader · ReadingList · ReadingCard   (render)
+components/  ReadingList · ReadingCard   (render, with display prefs applied)
 ```
 
-`app/loading.tsx` shows a skeleton while the server awaits ESV; `app/error.tsx`
-catches thrown errors (e.g. a missing API key).
+`app/loading.tsx` shows a skeleton while the server awaits API.Bible;
+`app/error.tsx` catches thrown errors (e.g. a missing API key). Display
+preferences (translation, theme, verse numbers, timezone) are carried in cookies
+so they survive reload and seed the initial server render.
+
+## Features
+
+- **Multiple translations** — pick **NIV**, **NLT**, or **MSG**; the choice is
+  remembered. (API.Bible's free plan caps you at three translations.)
+- **Light / dark / system mode**, with a no-flash inline theme script.
+- **Verse numbers** off by default, toggleable — a clean reading first.
+- **Non-contiguous passages** — a reference like `Lam. 3:1-9, 19-33` renders
+  each appointed span as its own segment with a visible gap marker, never a
+  silently-joined run of text.
+- **Local-midnight rollover** — the day's reading changes at the *reader's*
+  midnight, not the server's UTC midnight.
+- **Feast / fast day markers** drawn from the BREAD plan.
+- Small-caps rendering of the divine name (L<small>ORD</small>) in OT passages.
+- **Dev-only `?date=YYYY-MM-DD`** override to jump to any day's readings (gated
+  off in production).
 
 ## Data sources
 
-- **Lectionary:** bundled locally in `data/` from
-  [reubenlillie/daily-office](https://github.com/reubenlillie/daily-office) (MIT).
-  No external dependency at runtime. See `data/README.md`.
-- **Scripture text:** [ESV API](https://api.esv.org/) at request time, cached 24h.
+- **Reading plan:** the Bridgetown Church BREAD 2026 plan, bundled locally in
+  `data/bread-2026.json` (parsed from the published PDF). No external dependency
+  at runtime for the schedule itself.
+- **Scripture text:** [API.Bible](https://scripture.api.bible/), fetched at
+  request time.
 
-> **Why not the live Daily Office API?** The original plan used
-> `dailyoffice2019.com/api/v1/...`, but that URL returns the site's HTML shell,
-> not JSON — it isn't a real REST endpoint. Bundling the open lectionary data and
-> computing the church calendar ourselves (`lib/liturgicalCalendar.ts`) removes
-> that dependency entirely.
+## Known limitations / not yet built
 
-## Phase 1 scope & known limitations
+- **Audio playback** is scaffolded for (reserved env key, type hooks) but not
+  implemented.
+- No BCP prayers / collects, reading streaks, or saved/previous days yet — the
+  types and component layering anticipate these (see inline comments).
+- The schedule is whatever the BREAD 2026 plan specifies; dates outside the plan
+  fall back to a clean "no reading for today" state rather than crashing.
 
-- Morning Prayer only; ESV only.
-- The calendar engine is **verified for the moveable seasons** (Advent → Season
-  after Pentecost). The fixed Christmas/Epiphany window is best-effort. Fixed
-  holy days (`data/dol-holy-days.min.json`) aren't wired in yet — on those days
-  you'll get the ordinary office, and unmappable days fall back to a clean empty
-  state rather than crashing.
+## Legacy code (not in the active path)
 
-## Built to extend (Phase 2+)
-
-The types and layering already anticipate: multiple offices (`OfficeTime`),
-multiple translations (`Translation`), dark mode (CSS tokens + `darkMode:"class"`
-are in place), previous days, audio, BCP prayers, reading streaks. See
-inline comments marked with these features.
+This project started as a **BCP Daily Office** reader keyed off a computed church
+calendar, then pivoted to the date-keyed BREAD plan. A few modules from that
+first design are still in the tree but **no longer imported by the app**:
+`lib/liturgicalCalendar.ts`, `lib/dailyOffice.ts`, and the `data/dol-*.json`
+lectionary files (plus the now-stale notes in `data/README.md`). Treat
+`lib/breadOffice.ts` as the current source of truth for "what do I read today."
